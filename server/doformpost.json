@@ -1,0 +1,6 @@
+{
+    "success": true,
+    "errors":{
+        "txt_correo": "Este correo ya esta registrado"
+    }
+}

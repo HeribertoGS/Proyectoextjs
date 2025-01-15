@@ -1,0 +1,12 @@
+{
+    "success": false,
+    "data":{
+        "txt_nombre": "Heriberto",
+        "txt_correo": "gijon.sanchez501@gmail.com",
+        "home_score": "nose",
+        "txt_edad":"20",
+        "txt_fnacimiento": "08-05-1985",
+        "txt_genero": "1",
+        "txt_idioma": "['1','3']"
+    }
+}
