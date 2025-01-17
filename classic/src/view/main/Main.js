@@ -75,11 +75,7 @@ Ext.define('Proyectoextjs.view.main.Main', {
     },
 
     items: [
-        {
-            title: 'Clientes',
-            iconCls: 'fa-user',
-            xtype: 'panelclientes'
-        },
+
         {
         title: 'Home',
         iconCls: 'fa-home',
@@ -87,12 +83,15 @@ Ext.define('Proyectoextjs.view.main.Main', {
         items: [{
             xtype: 'mainlist'
         }]
-    }, {
-        title: 'Users',
-        iconCls: 'fa-user',
-        bind: {
-            html: '{loremIpsum}'
-        }
+    },    {
+            title: 'Clientes',
+            iconCls: 'fa-user',
+            xtype: 'panelclientes'
+        },
+        {
+        title: 'Productos',
+        iconCls: 'fa-solid fa-dumpster-fire',
+        xtype: "panelproductos"
     }, {
         title: 'Groups',
         iconCls: 'fa-users',
