@@ -60,14 +60,13 @@ Ext.define('classic.src.view.clientes.PanelClientes',{
                             bodyStyle:'background-color: #A6C; font-size: 30px; color:#345',
                             html:'detalle 2'
                         }],
-                        buttons:[{
-                            text:'Panel 1',
+                        buttons: [{
+                            text: 'Panel 1',
                             scale: 'large',
-                            handler: function(){
+                            handler: function () {
                                 this.up('panel').layout.setActiveItem(0);
                             }
-                        },
-                        {
+                        },                        {
                             text:'Panel 2',
                             scale: 'large',
                             handler: function(){
